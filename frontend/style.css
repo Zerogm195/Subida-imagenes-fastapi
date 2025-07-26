@@ -1,0 +1,110 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.subirimg{
+
+    font-size: 1.5rem;
+
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+a{
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: solid;
+}
+
+input {
+    background-color: #1f1f1f;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+img {
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+#resultado div {
+    width: 220px; /* Puedes ajustar esto según el tamaño de tus imágenes */
+}
+
+
+#resultado, #resultadoAutor {
+    display: flex;
+    flex-wrap: wrap; /* Para que pasen a la siguiente línea si no caben */
+    gap: 20px;        /* Espacio entre elementos */
+    margin-top: 20px;
+    justify-content: center; /* Centra horizontalmente las tarjetas */
+}
+
+#resultado div, #resultadoAutor div {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    width: 240px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+#resultado, #galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tarjeta {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 220px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.tarjeta img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.tarjeta .info {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.formu{
+
+    width: 500px;
+    height: 25px;
+
+}
